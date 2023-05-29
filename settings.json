@@ -1,0 +1,137 @@
+{
+    "editor.tabCompletion": "on",
+    "editor.quickSuggestions": {
+        "comments": "on",
+        "strings": "on",
+        "other": "on"
+    },
+    "editor.wordBasedSuggestions": true,
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.acceptSuggestionOnEnter": "on",
+    "editor.acceptSuggestionOnCommitCharacter": true,
+
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+        "<tab>": false
+    },
+
+
+    "workbench.colorCustomizations": {
+    "activityBar.background": "#2a1c2a",
+    "activityBar.foreground": "#6f6078",
+    "activityBarBadge.background": "#6f6078",
+    "activityBarBadge.foreground": "#f0f0f0",
+    "sideBar.background": "#40364b",
+    "sideBar.foreground": "#f0f0f0",
+    "sideBarSectionHeader.background": "#40364b",
+    "sideBarSectionHeader.foreground": "#f0f0f0",
+    "titleBar.activeBackground": "#0f0d1a",
+    "titleBar.activeForeground": "#f0f0f0",
+    "titleBar.inactiveBackground": "#0f0d1a",
+    "titleBar.inactiveForeground": "#6f6078",
+    "statusBar.background": "#0f0d1a",
+    "statusBar.foreground": "#f0f0f0",
+    "editor.background": "#2a2638",
+    "editor.foreground": "#f0f0f0",
+    "editor.lineHighlightBackground": "#5b4c63",
+    "editorLineNumber.foreground": "#14121f",
+    "editorCursor.foreground": "#f0f0f0",
+    "editor.selectionBackground": "#372a38"
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "comment.line.python",
+                "settings": {
+                    "foreground": "#6f6078"
+                }
+            },
+            {
+                "scope": "string.quoted.double.python",
+                "settings": {
+                    "foreground": "#372a38"
+                }
+            },
+            {
+                "scope": "constant.numeric.python",
+                "settings": {
+                    "foreground": "#1f101c"
+                }
+            },
+            {
+                "scope": "variable.language.python",
+                "settings": {
+                    "foreground": "#f0f0f0"
+                }
+            },
+            {
+                "scope": "support.type.python",
+                "settings": {
+                    "foreground": "#14121f"
+                }
+            },
+            {
+                "scope": "entity.name.function.python",
+                "settings": {
+                    "foreground": "#2a2638"
+                }
+            },
+            {
+                "scope": "variable.parameter.function.python",
+                "settings": {
+                    "foreground": "#6f6078"
+                }
+            },
+            {
+                "scope": "support.function.builtin.python",
+                "settings": {
+                    "foreground": "#5b4c63"
+                }
+            }
+        ]
+    },
+
+
+    "workbench.activityBar.visible": false,
+    "editor.minimap.enabled": false,
+    "editor.lineNumbers": "on",
+    "editor.folding": false,
+    "breadcrumbs.enabled": false,
+    "editor.renderWhitespace": "none",
+    "editor.renderControlCharacters": false,
+    "editor.occurrencesHighlight": false,
+    "editor.matchBrackets": "never",
+    "editor.symbolHighlightBackground": "#00000000",
+    "editorOverviewRuler.border": false,
+    "editorOverviewRuler.findMatchForeground": "#00000000",
+    "editorOverviewRuler.rangeHighlightForeground": "#00000000",
+    "editorOverviewRuler.selectionHighlightForeground": "#00000000",
+    "editorOverviewRuler.wordHighlightForeground": "#00000000",
+    "editorOverviewRuler.wordHighlightStrongForeground": "#00000000",
+    "editorOverviewRuler.modifiedForeground": "#00000000",
+    "editorOverviewRuler.addedForeground": "#00000000",
+    "editorOverviewRuler.deletedForeground": "#00000000",
+    "editorOverviewRuler.errorForeground": "#00000000",
+    "editorOverviewRuler.warningForeground": "#00000000",
+    "editorOverviewRuler.infoForeground": "#00000000",
+    "editorOverviewRuler.bracketMatchForeground": "#00000000",
+
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.relativeLineNumbers": true,
+    "vim.smartRelativeLine": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "j"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "glassit-linux.opacity": 80,
+    "editor.inlineSuggest.enabled": true,
+    "editor.guides.indentation": false,
+    "window.zoomLevel": 1,
+    "workbench.iconTheme": "vscode-icons",
+}
