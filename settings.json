@@ -135,8 +135,7 @@
     "workbench.iconTheme": "vscode-icons",
     "editor.fontFamily": "'Fira Code', 'Menlo, Monaco, 'Courier New', monospace",
     "editor.fontLigatures": true,
-    // Python formatting settings
-    "python.formatting.provider": "black", // or "autopep8"
+    "python.formatting.provider": "black",
     "editor.formatOnSave": true,
     "[python]": {
         "editor.formatOnSave": true
