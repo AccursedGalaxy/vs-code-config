@@ -9,34 +9,31 @@
     "editor.suggestOnTriggerCharacters": true,
     "editor.acceptSuggestionOnEnter": "on",
     "editor.acceptSuggestionOnCommitCharacter": true,
-
     "vim.leader": "<space>",
     "vim.handleKeys": {
         "<tab>": false
     },
-
-
     "workbench.colorCustomizations": {
-    "activityBar.background": "#2a1c2a",
-    "activityBar.foreground": "#6f6078",
-    "activityBarBadge.background": "#6f6078",
-    "activityBarBadge.foreground": "#f0f0f0",
-    "sideBar.background": "#40364b",
-    "sideBar.foreground": "#f0f0f0",
-    "sideBarSectionHeader.background": "#40364b",
-    "sideBarSectionHeader.foreground": "#f0f0f0",
-    "titleBar.activeBackground": "#0f0d1a",
-    "titleBar.activeForeground": "#f0f0f0",
-    "titleBar.inactiveBackground": "#0f0d1a",
-    "titleBar.inactiveForeground": "#6f6078",
-    "statusBar.background": "#0f0d1a",
-    "statusBar.foreground": "#f0f0f0",
-    "editor.background": "#2a2638",
-    "editor.foreground": "#f0f0f0",
-    "editor.lineHighlightBackground": "#5b4c63",
-    "editorLineNumber.foreground": "#14121f",
-    "editorCursor.foreground": "#f0f0f0",
-    "editor.selectionBackground": "#372a38"
+        "activityBar.background": "#2a1c2a",
+        "activityBar.foreground": "#6f6078",
+        "activityBarBadge.background": "#6f6078",
+        "activityBarBadge.foreground": "#f0f0f0",
+        "sideBar.background": "#40364b",
+        "sideBar.foreground": "#f0f0f0",
+        "sideBarSectionHeader.background": "#40364b",
+        "sideBarSectionHeader.foreground": "#f0f0f0",
+        "titleBar.activeBackground": "#0f0d1a",
+        "titleBar.activeForeground": "#f0f0f0",
+        "titleBar.inactiveBackground": "#0f0d1a",
+        "titleBar.inactiveForeground": "#6f6078",
+        "statusBar.background": "#0f0d1a",
+        "statusBar.foreground": "#f0f0f0",
+        "editor.background": "#2a2638",
+        "editor.foreground": "#f0f0f0",
+        "editor.lineHighlightBackground": "#5b4c63",
+        "editorLineNumber.foreground": "#14121f",
+        "editorCursor.foreground": "#f0f0f0",
+        "editor.selectionBackground": "#372a38"
     },
     "editor.tokenColorCustomizations": {
         "textMateRules": [
@@ -90,8 +87,6 @@
             }
         ]
     },
-
-
     "workbench.activityBar.visible": false,
     "editor.minimap.enabled": false,
     "editor.lineNumbers": "on",
@@ -115,7 +110,6 @@
     "editorOverviewRuler.warningForeground": "#00000000",
     "editorOverviewRuler.infoForeground": "#00000000",
     "editorOverviewRuler.bracketMatchForeground": "#00000000",
-
     "vim.easymotion": true,
     "vim.incsearch": true,
     "vim.useSystemClipboard": true,
@@ -125,8 +119,13 @@
     "vim.smartRelativeLine": true,
     "vim.insertModeKeyBindings": [
         {
-            "before": ["j", "j"],
-            "after": ["<Esc>"]
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
         }
     ],
     "glassit-linux.opacity": 80,
@@ -134,4 +133,14 @@
     "editor.guides.indentation": false,
     "window.zoomLevel": 1,
     "workbench.iconTheme": "vscode-icons",
+    "editor.fontFamily": "'Fira Code', 'Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    // Python formatting settings
+    "python.formatting.provider": "black", // or "autopep8"
+    "editor.formatOnSave": true,
+    "[python]": {
+        "editor.formatOnSave": true
+    },
+    "python.linting.pylintEnabled": false,
+    "python.linting.enabled": true
 }
